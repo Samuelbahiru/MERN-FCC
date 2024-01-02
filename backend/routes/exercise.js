@@ -15,7 +15,7 @@ router.route("/add").post(async (req, res) => {
   const date = Date.parse(req.body.date);
 
   try {
-    const newExercise = await new Exercise({
+    const newExercise = new Exercise({
       username,
       description,
       duration,
