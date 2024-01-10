@@ -3,6 +3,7 @@ import { API_BASE } from "../config";
 import axios from "axios";
 import ReactDatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+
 const CreateExercise = () => {
   const [username, setUsername] = useState("");
   const [description, setDescription] = useState("");
